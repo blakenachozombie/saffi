@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+
+<html lang = "en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>saffi.</title>
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "saffi.css"/>
+    <script type = "text/javascript">
+        function smartremark() {
+            var smartremark = document.getElementById("smartremark");
+            var random = Math.random();
+            var random3 = random * 12;
+            var random2 = Math.round(random3);
+            
+            if (random2 == 1) {
+                smartremark.innerHTML = "<h5>NEWS: saffi just woke up. prepare for an earthquake. |</h5>";
+            }
+            else if (random2 == 2) {
+                smartremark.innerHTML = "<h5>saffi is sleeping in for a few months. |</h5>";
+            }
+            else if (random2 == 3) {
+                smartremark.innerHTML = "<h5>saffi doesn't walk. she rolls. |</h5>";
+            }
+            else if (random2 == 4) {
+                smartremark.innerHTML = "<h5>saffi is named after my dead pet rat, saffy. |</h5>";
+            }
+            else if (random2 == 5) {
+                smartremark.innerHTML = "<h5>saffi wants a hug. |</h5>";
+            }
+            else if (random2 == 6) {
+                smartremark.innerHTML = "<h5>NEWS: saffi is sleeping on her wheel instead of running on it. |</h5>";
+            }
+            else if (random2 == 7) {
+                smartremark.innerHTML = "<h5>saffi is amazing. |</h5>";
+            }
+            else if (random2 == 8) {
+                smartremark.innerHTML = "<h5>saffi is really hungry. |</h5>";
+            }
+            else if (random2 == 9) {
+                smartremark.innerHTML = "<h5>NEWS: saffi ate my apartment. like, in one big bite. |</h5>"
+            }
+            else if (random2 == 10) {
+                smartremark.innerHTML = "<h5>today is saffi day! |</h5>"
+            }
+            else if (random2 == 12) {
+                smartremark.innerHTML = "<h5>saffi. is. GIGA-MASSIVE. |</h5>"
+            }
+            else if (random2 == 11) {
+                smartremark.innerHTML = "<h5>saffi has been elected for leader of all food. |</h5>"
+            }
+            else {
+                smartremark.innerHTML = "<h5>saffi thinks you are friendly |</h5>";
+            }
+        }
+                
+        
+        function split() {
+            smartremark();
+            var output = document.getElementById("output");
+            output.innerHTML = "";
+            var txtInput = document.getElementById("txtInput");
+            var input = txtInput.value;
+            var s = input;
+            for (i = 0; i < s.length; i++) {
+                var letter = s[i];
+                switch(letter){
+                    case 'a':
+                        output.innerHTML += "01100001 ";
+                        break;
+                    case 'b':
+                        output.innerHTML += "01100010 ";
+                        break;
+                    case 'c':
+                        output.innerHTML += "01100011 ";
+                        break;
+                    case 'd':
+                        output.innerHTML += "01100100 ";
+                        break;
+                    case 'e':
+                        output.innerHTML += "01100101 ";
+                        break;
+                    case 'f':
+                        output.innerHTML += "01100110 ";
+                        break;
+                    case 'g':
+                        output.innerHTML += "01100111 ";
+                        break;
+                    case 'h':
+                        output.innerHTML += "01101000 ";
+                        break;
+                    case 'i':
+                        output.innerHTML += "01101001 ";
+                        break;
+                    case 'j':
+                        output.innerHTML += "01101010 ";
+                        break;
+                    case 'k':
+                        output.innerHTML += "01101100 ";
+                        break;
+                    case 'l':
+                        output.innerHTML += "01101101 ";
+                        break;
+                    case 'm':
+                        output.innerHTML += "01101110 ";
+                        break;
+                    case 'n':
+                        output.innerHTML += "01101101 ";
+                        break;
+                    case 'o':
+                        output.innerHTML += "01101111 ";
+                        break;
+                    case 'p':
+                        output.innerHTML += "01110000 ";
+                        break;
+                    case 'q':
+                        output.innerHTML += "01110001 ";
+                        break;
+                    case 'r':
+                        output.innerHTML += "01110010 ";
+                        break;
+                    case 's':
+                        output.innerHTML += "01110011 ";
+                        break;
+                    case 't':
+                        output.innerHTML += "01110100 ";
+                        break;
+                    case 'u':
+                        output.innerHTML += "01110101 ";
+                        break;
+                    case 'v':
+                        output.innerHTML += "01110110 ";
+                        break;
+                    case 'w':
+                        output.innerHTML += "01110111 ";
+                        break;
+                    case 'x':
+                        output.innerHTML += "01111000 ";
+                        break;
+                    case 'y':
+                        output.innerHTML += "01111001 ";
+                        break;
+                    case 'z':
+                        output.innerHTML += "01111010 ";
+                        break;
+                    case ' ':
+                        output.innerHTML += "00100000 ";
+                        break;
+                    case 'A':
+                        output.innerHTML += "01000001 ";
+                        break;
+                    case 'B':
+                        output.innerHTML += "01000010 ";
+                        break;
+                    case 'C':
+                        output.innerHTML += "01000011 ";
+                        break;
+                    case 'D':
+                        output.innerHTML += "01000100 ";
+                        break;
+                    case 'E':
+                        output.innerHTML += "01000101 ";
+                        break;
+                    case 'F':
+                        output.innerHTML += "01000110 ";
+                        break;
+                    case 'G':
+                        output.innerHTML += "01000111 ";
+                        break;
+                    case 'H':
+                        output.innerHTML += "01001000 ";
+                        break;
+                    case 'I':
+                        output.innerHTML += "01001001 ";
+                        break;
+                    case 'J':
+                        output.innerHTML += "01001010 ";
+                        break;
+                    case 'K':
+                        output.innerHTML += "01001011 ";
+                        break;
+                    case 'L':
+                        output.innerHTML += "01001100 ";
+                        break;
+                    case 'M':
+                        output.innerHTML += "01001101 ";
+                        break;
+                    case 'N':
+                        output.innerHTML += "01001110 ";
+                        break;
+                    case 'O':
+                        output.innerHTML += "01001111 ";
+                        break;
+                    case 'P':
+                        output.innerHTML += "01010000 ";
+                        break;
+                    case 'Q':
+                        output.innerHTML += "01010001 ";
+                        break;
+                    case 'R':
+                        output.innerHTML += "01010010 ";
+                        break;
+                    case 'S':
+                        output.innerHTML += "01010011 ";
+                        break;
+                    case 'T':
+                        output.innerHTML += "01010100 ";
+                        break;
+                    case 'U':
+                        output.innerHTML += "01010101 ";
+                        break;
+                    case 'V':
+                        output.innerHTML += "01010110 ";
+                        break;
+                    case 'W':
+                        output.innerHTML += "01010111 ";
+                        break;
+                    case 'X':
+                        output.innerHTML += "01011000 ";
+                        break;
+                    case 'Y':
+                        output.innerHTML += "01011001 ";
+                        break;
+                    case 'Z':
+                        output.innerHTML += "01011010 ";
+                        break;
+                    case '1':
+                        output.innerHTML += "00110001 ";
+                        break;
+                    case '2':
+                        output.innerHTML += "00110010 ";
+                        break;
+                    case '3':
+                        output.innerHTML += "00110011 ";
+                        break;
+                    case '4':
+                        output.innerHTML += "00110100 ";
+                        break;
+                    case '5':
+                        output.innerHTML += "00110101 ";
+                        break;
+                    case '6':
+                        output.innerHTML += "00110110 ";
+                        break;
+                    case '7':
+                        output.innerHTML += "00110111 ";
+                        break;
+                    case '8':
+                        output.innerHTML += "00111000 ";
+                        break;
+                    case '9':
+                        output.innerHTML += "00111001 ";
+                        break;
+                    case '0':
+                        output.innerHTML += "00110000 ";
+                        break;
+                    case '-':
+                        output.innerHTML += "00101101 ";
+                        break;
+                    case '=':
+                        output.innerHTML += "00111101 ";
+                        break;
+                    case ',':
+                        output.innerHTML += "00101100 ";
+                        break;
+                    case '.':
+                        output.innerHTML += "00101110 ";
+                        break;
+                    case '/':
+                        output.innerHTML += "00101111 ";
+                        break;
+                    case '_':
+                        output.innerHTML += "01011111 ";
+                        break;
+                    case '+':
+                        output.innerHTML += "00101011 ";
+                        break;
+                    case '[':
+                        output.innerHTML += "01011011 ";
+                        break;
+                    case ']':
+                        output.innerHTML += "01011101 ";
+                        break;
+                    case '{':
+                        output.innerHTML += "01111011 ";
+                        break;
+                    case '}':
+                        output.innerHTML += "01111101 ";
+                        break;
+                    case '|':
+                        output.innerHTML += "01111100 ";
+                        break;
+                    case '`':
+                        output.innerHTML += "01100000 ";
+                        break;
+                    case '~':
+                        output.innerHTML += "01111110 ";
+                        break;
+                    case '<':
+                        output.innerHTML += "00111100 ";
+                        break;
+                    case '>':
+                        output.innerHTML += "00111110 ";
+                        break;
+                    case '?':
+                        output.innerHTML += "00111111 ";
+                        break;
+                    case '!':
+                        output.innerHTML += "00100001 ";
+                        break;
+                    case '@':
+                        output.innerHTML += "01000000 ";
+                        break;
+                    case '#':
+                        output.innerHTML += "00100011 ";
+                        break;
+                    case '$':
+                        output.innerHTML += "00100100 ";
+                        break;
+                    case '%':
+                        output.innerHTML += "00100101 ";
+                        break;
+                    case '^':
+                        output.innerHTML += "01011110 ";
+                        break;
+                    case '&':
+                        output.innerHTML += "00100110 ";
+                        break;
+                    case '*':
+                        output.innerHTML += "00101010 ";
+                        break;
+                    case '(':
+                        output.innerHTML += "00101000 ";
+                        break;
+                    case ')':
+                        output.innerHTML += "00101001 ";
+                        break;
+                    case ';':
+                        output.innerHTML += "00111011 ";
+                        break;
+                    case ':':
+                        output.innerHTML += "00111010 ";
+                        break;
+                    case '"':
+                        output.innerHTML += "00100111 ";
+                        break;
+                    case "'":
+                        output.innerHTML += "00100010 ";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        function hexname() {
+            smartremark();
+            var output = document.getElementById("output");
+            output.innerHTML = "";
+            var txtInput = document.getElementById("txtInput");
+            var input2 = txtInput.value;
+            var s = input2;
+            for (i = 0; i < s.length; i++) {
+                var letter = s[i];
+                switch(letter){
+                    case 'a':
+                        output.innerHTML += "61 ";
+                        break;
+                    case 'b':
+                        output.innerHTML += "62 ";
+                        break;
+                    case 'c':
+                        output.innerHTML += "63 ";
+                        break;
+                    case 'd':
+                        output.innerHTML += "64 ";
+                        break;
+                    case 'e':
+                        output.innerHTML += "65 ";
+                        break;
+                    case 'f':
+                        output.innerHTML += "66 ";
+                        break;
+                    case 'g':
+                        output.innerHTML += "67 ";
+                        break;
+                    case 'h':
+                        output.innerHTML += "68 ";
+                        break;
+                    case 'i':
+                        output.innerHTML += "69 ";
+                        break;
+                    case 'j':
+                        output.innerHTML += "6a ";
+                        break;
+                    case 'k':
+                        output.innerHTML += "6b ";
+                        break;
+                    case 'l':
+                        output.innerHTML += "6c ";
+                        break;
+                    case 'm':
+                        output.innerHTML += "6d ";
+                        break;
+                    case 'n':
+                        output.innerHTML += "6e ";
+                        break;
+                    case 'o':
+                        output.innerHTML += "6f ";
+                        break;
+                    case 'p':
+                        output.innerHTML += "70 ";
+                        break;
+                    case 'q':
+                        output.innerHTML += "71 ";
+                        break;
+                    case 'r':
+                        output.innerHTML += "72 ";
+                        break;
+                    case 's':
+                        output.innerHTML += "73 ";
+                        break;
+                    case 't':
+                        output.innerHTML += "74 ";
+                        break;
+                    case 'u':
+                        output.innerHTML += "75 ";
+                        break;
+                    case 'v':
+                        output.innerHTML += "76 ";
+                        break;
+                    case 'w':
+                        output.innerHTML += "77 ";
+                        break;
+                    case 'x':
+                        output.innerHTML += "78 ";
+                        break;
+                    case 'y':
+                        output.innerHTML += "79 ";
+                        break;
+                    case 'z':
+                        output.innerHTML += "7a ";
+                        break;
+                    case ' ':
+                        output.innerHTML += "20 ";
+                        break;
+                    case 'A':
+                        output.innerHTML += "41 ";
+                        break;
+                    case 'B':
+                        output.innerHTML += "42 ";
+                        break;
+                    case 'C':
+                        output.innerHTML += "43 ";
+                        break;
+                    case 'D':
+                        output.innerHTML += "44 ";
+                        break;
+                    case 'E':
+                        output.innerHTML += "45 ";
+                        break;
+                    case 'F':
+                        output.innerHTML += "46 ";
+                        break;
+                    case 'G':
+                        output.innerHTML += "47 ";
+                        break;
+                    case 'H':
+                        output.innerHTML += "48 ";
+                        break;
+                    case 'I':
+                        output.innerHTML += "49 ";
+                        break;
+                    case 'J':
+                        output.innerHTML += "4a ";
+                        break;
+                    case 'K':
+                        output.innerHTML += "4b ";
+                        break;
+                    case 'L':
+                        output.innerHTML += "4c ";
+                        break;
+                    case 'M':
+                        output.innerHTML += "4d ";
+                        break;
+                    case 'N':
+                        output.innerHTML += "4e ";
+                        break;
+                    case 'O':
+                        output.innerHTML += "4f";
+                        break;
+                    case 'P':
+                        output.innerHTML += "50 ";
+                        break;
+                    case 'Q':
+                        output.innerHTML += "51 ";
+                        break;
+                    case 'R':
+                        output.innerHTML += "52 ";
+                        break;
+                    case 'S':
+                        output.innerHTML += "53 ";
+                        break;
+                    case 'T':
+                        output.innerHTML += "54 ";
+                        break;
+                    case 'U':
+                        output.innerHTML += "55 ";
+                        break;
+                    case 'V':
+                        output.innerHTML += "56 ";
+                        break;
+                    case 'W':
+                        output.innerHTML += "57 ";
+                        break;
+                    case 'X':
+                        output.innerHTML += "58 ";
+                        break;
+                    case 'Y':
+                        output.innerHTML += "59 ";
+                        break;
+                    case 'Z':
+                        output.innerHTML += "5a ";
+                        break;
+                    case '1':
+                        output.innerHTML += "31 ";
+                        break;
+                    case '2':
+                        output.innerHTML += "32 ";
+                        break;
+                    case '3':
+                        output.innerHTML += "33 ";
+                        break;
+                    case '4':
+                        output.innerHTML += "34 ";
+                        break;
+                    case '5':
+                        output.innerHTML += "35 ";
+                        break;
+                    case '6':
+                        output.innerHTML += "36 ";
+                        break;
+                    case '7':
+                        output.innerHTML += "37 ";
+                        break;
+                    case '8':
+                        output.innerHTML += "38 ";
+                        break;
+                    case '9':
+                        output.innerHTML += "39 ";
+                        break;
+                    case '0':
+                        output.innerHTML += "30 ";
+                        break;
+                    case '-':
+                        output.innerHTML += "2d ";
+                        break;
+                    case '=':
+                        output.innerHTML += "3d ";
+                        break;
+                    case ',':
+                        output.innerHTML += "5f ";
+                        break;
+                    case '.':
+                        output.innerHTML += "2b ";
+                        break;
+                    case '/':
+                        output.innerHTML += "2c ";
+                        break;
+                    case '_':
+                        output.innerHTML += "2e ";
+                        break;
+                    case '+':
+                        output.innerHTML += "2f ";
+                        break;
+                    case '[':
+                        output.innerHTML += "3c ";
+                        break;
+                    case ']':
+                        output.innerHTML += "3e ";
+                        break;
+                    case '{':
+                        output.innerHTML += "3f ";
+                        break;
+                    case '}':
+                        output.innerHTML += "5b ";
+                        break;
+                    case '|':
+                        output.innerHTML += "5d ";
+                        break;
+                    case '`':
+                        output.innerHTML += "7b ";
+                        break;
+                    case '~':
+                        output.innerHTML += "7d ";
+                        break;
+                    case '<':
+                        output.innerHTML += "5c ";
+                        break;
+                    case '>':
+                        output.innerHTML += "60 ";
+                        break;
+                    case '?':
+                        output.innerHTML += "7e ";
+                        break;
+                    case '!':
+                        output.innerHTML += "21 ";
+                        break;
+                    case '@':
+                        output.innerHTML += "40 ";
+                        break;
+                    case '#':
+                        output.innerHTML += "23 ";
+                        break;
+                    case '$':
+                        output.innerHTML += "24 ";
+                        break;
+                    case '%':
+                        output.innerHTML += "25 ";
+                        break;
+                    case '^':
+                        output.innerHTML += "5e ";
+                        break;
+                    case '&':
+                        output.innerHTML += "26 ";
+                        break;
+                    case '*':
+                        output.innerHTML += "2a ";
+                        break;
+                    case '(':
+                        output.innerHTML += "28 ";
+                        break;
+                    case ')':
+                        output.innerHTML += "29 ";
+                        break;
+                    case ';':
+                        output.innerHTML += "3b ";
+                        break;
+                    case ':':
+                        output.innerHTML += "3a ";
+                        break;
+                    case '"':
+                        output.innerHTML += "27 ";
+                        break;
+                    case "'":
+                        output.innerHTML += "22 ";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        function morsecode() {
+            smartremark();
+            var output = document.getElementById("output");
+            output.innerHTML = "";
+            var txtInput = document.getElementById("txtInput");
+            var input3 = txtInput.value;
+            var s = input3;
+            for (i = 0; i < s.length; i++) {
+                var letter = s[i].toLowerCase();
+                switch(letter){
+                    case 'a':
+                        output.innerHTML += ".- ";
+                        break;
+                    case 'b':
+                        output.innerHTML += "-... ";
+                        break;
+                    case 'c':
+                        output.innerHTML += "-.-. ";
+                        break;
+                    case 'd':
+                        output.innerHTML += "-.. ";
+                        break;
+                    case 'e':
+                        output.innerHTML += ". ";
+                        break;
+                    case 'f':
+                        output.innerHTML += "..-. ";
+                        break;
+                    case 'g':
+                        output.innerHTML += "--. ";
+                        break;
+                    case 'h':
+                        output.innerHTML += ".... ";
+                        break;
+                    case 'i':
+                        output.innerHTML += ".. ";
+                        break;
+                    case 'j':
+                        output.innerHTML += ".--- ";
+                        break;
+                    case 'k':
+                        output.innerHTML += "-.- ";
+                        break;
+                    case 'l':
+                        output.innerHTML += ".-.. ";
+                        break;
+                    case 'm':
+                        output.innerHTML += "-- ";
+                        break;
+                    case 'n':
+                        output.innerHTML += "-. ";
+                        break;
+                    case 'o':
+                        output.innerHTML += "--- ";
+                        break;
+                    case 'p':
+                        output.innerHTML += ".--. ";
+                        break;
+                    case 'q':
+                        output.innerHTML += "--.- ";
+                        break;
+                    case 'r':
+                        output.innerHTML += ".-. ";
+                        break;
+                    case 's':
+                        output.innerHTML += "... ";
+                        break;
+                    case 't':
+                        output.innerHTML += "- ";
+                        break;
+                    case 'u':
+                        output.innerHTML += "..- ";
+                        break;
+                    case 'v':
+                        output.innerHTML += "...- ";
+                        break;
+                    case 'w':
+                        output.innerHTML += ".-- ";
+                        break;
+                    case 'x':
+                        output.innerHTML += "-..- ";
+                        break;
+                    case 'y':
+                        output.innerHTML += "-.-- ";
+                        break;
+                    case 'z':
+                        output.innerHTML += "--.. ";
+                        break;
+                    case ' ':
+                        output.innerHTML += "  ";
+                        break;
+                    case '1':
+                        output.innerHTML += ".---- ";
+                        break;
+                    case '2':
+                        output.innerHTML += "..--- ";
+                        break;
+                    case '3':
+                        output.innerHTML += "...-- ";
+                        break;
+                    case '4':
+                        output.innerHTML += "....- ";
+                        break;
+                    case '5':
+                        output.innerHTML += "..... ";
+                        break;
+                    case '6':
+                        output.innerHTML += "-.... ";
+                        break;
+                    case '7':
+                        output.innerHTML += "--... ";
+                        break;
+                    case '8':
+                        output.innerHTML += "---.. ";
+                        break;
+                    case '9':
+                        output.innerHTML += "----. ";
+                        break;
+                    case '0':
+                        output.innerHTML += "----- ";
+                        break;
+                    case '-':
+                        output.innerHTML += "-....- ";
+                        break;
+                    case '=':
+                        output.innerHTML += "-...- ";
+                        break;
+                    case ',':
+                        output.innerHTML += "--..-- ";
+                        break;
+                    case '.':
+                        output.innerHTML += ".-.-.- ";
+                        break;
+                    case '/':
+                        output.innerHTML += "-..-. ";
+                        break;
+                    case '_':
+                        output.innerHTML += "..--.- ";
+                        break;
+                    case '+':
+                        output.innerHTML += ".-.-. ";
+                        break;
+                    case '?':
+                        output.innerHTML += "..--.. ";
+                        break;
+                    case '!':
+                        output.innerHTML += "-.-.-- ";
+                        break;
+                    case '@':
+                        output.innerHTML += ".--.-. ";
+                        break;
+                    case '$':
+                        output.innerHTML += "...-..- ";
+                        break;
+                    case '(':
+                        output.innerHTML += "-.--. ";
+                        break;
+                    case ')':
+                        output.innerHTML += "-.--.- ";
+                        break;
+                    case ';':
+                        output.innerHTML += "-.-.-. ";
+                        break;
+                    case ':':
+                        output.innerHTML += "---... ";
+                        break;
+                    case '"':
+                        output.innerHTML += ".-..-. ";
+                        break;
+                    case "'":
+                        output.innerHTML += ".----. ";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body onload = "smartremark()">
+    <div id = "title">
+        <img src = "saffisquare.jpg" alt = "saffi." style="width: 23px; height: 23px;">
+    <h1>saffi.</h1>
+    </div>
+    <div id = "bottominfo">
+    <h5>programmed by blake bain. |</h5>
+    <a href = "http://steamcommunity.com/id/blakebain1/">steam account</a>
+    <h5>|</h5>
+    <a href = "http://youtube.com/channel/UC-yuk3-FNDEkkKIQ_a-LS-w">youtube channel</a>
+    <h5>|</h5>
+    <a href = "http://stackoverflow.com/users/4907682/nachozombie">stack overflow account</a>
+    <h5>|</h5>
+    <h5>apparently, this is the official way of converting letters to different bases. |</h5>
+    <div id = "smartremark"><h5></h5></div>
+    </div>
+    <div style="clear: none;"></div>
+<form>
+    <fieldset>
+<label for = "txtInput">text:</label>
+    <input type = "text"
+           id = "txtInput"/>
+<button type = "button"
+        onclick = "split()">
+    binary
+</button>
+<button type = "button"
+        onclick = "hexname()">
+    hexadecimal
+</button>
+<button type = "button"
+        onclick = "morsecode()">
+    morse code
+</button>
+<div id = "output"></div>
+    </fieldset>
+</form>
+<p>saffi will convert some text to other stuff</p>
+</body>
+</html>
